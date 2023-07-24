@@ -1,0 +1,8 @@
+.main{
+    background-color: white;
+    width: 90%;
+    margin: 30vh auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: max-content 1fr 1fr 1fr;
+}

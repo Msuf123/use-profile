@@ -1,0 +1,23 @@
+.main{
+color: purple;
+background-color: aqua;
+padding: 30px;
+
+
+}
+.main img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
+.bold{
+    font-weight: bolder;
+}
+.ratings{
+    
+    display: block;
+}
+.star{
+    font-size: 1.09rem;
+}
