@@ -4,7 +4,7 @@ export default function Desc(){
     return(
         <div className={style.main}>
             <h1>Jonhn Deo,<span> 5 </span><span className={style.small}>YRS Exp.</span></h1>
-            <span>Details</span>
+            <span className={style.del}>Details</span>
             <p>I am not intrested in Science and Web technology,Basic Lorem ipsum</p>
             <div>
                 <Blocks></Blocks>

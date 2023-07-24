@@ -1,8 +1,14 @@
 .main{
     background-color: white;
-    width: 90%;
+    width: 95%;
     margin: 30vh auto;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: max-content 1fr 1fr 1fr;
+    grid-template-columns: max-content max-content 1fr 1fr;
+    align-content: end;
+}
+@media only screen and (max-width:984px) {
+    .main{
+        grid-template-columns: 1fr 1fr 2fr 2fr;
+    }
 }

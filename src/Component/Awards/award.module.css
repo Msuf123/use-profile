@@ -1,13 +1,23 @@
 .main{
-    background-color: brown;
+    
+    color: pink;
+    margin: 35px 0px;
 }
 .button button{
  aspect-ratio: 1;
  border-radius: 50%;
+ border: 0px;
+ margin: 1px;
 }
 .button :first-child{
-    background-color: pink;
+    background-color: rgb(241, 173, 185);
 }
-.button:nth-child(4){
+.button :nth-child(2){
     background-color: yellow;
+}
+.button :nth-child(3){
+    background-color: rgb(165, 84, 165);
+}
+.button :nth-child(4){
+    background-color: rgb(48, 187, 48);
 }

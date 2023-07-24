@@ -1,5 +1,15 @@
 .main{
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+    ;
+    margin: 35px 0px;
+}
+.del{
+    margin-top: 10px;
+}
+.main h1{
+    margin: 0px;
 }
 .main h1 span{
  color: grey;
@@ -9,5 +19,13 @@
 }
 .main span{color: purple;}
 .main p{
+    margin: 00px 0px 10px 0px;
+    text-align: left;
     color: gray;
+}
+@media only screen and (max-width:792px) {
+    .main{
+        
+        font-size: 12px;
+    }
 }

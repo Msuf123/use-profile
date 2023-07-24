@@ -1,15 +1,18 @@
 .main{
 color: purple;
-background-color: aqua;
-padding: 30px;
 
+padding: 30px;
+margin: 5px 10px ;
+width: min-content;
 
 }
 .main img{
+    margin: 0px;
     width: 100px;
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: 2px solid wheat;
+    
 }
 .bold{
     font-weight: bolder;
@@ -20,4 +23,13 @@ padding: 30px;
 }
 .star{
     font-size: 1.09rem;
+}
+@media only screen and (max-width:792px) {
+    .main img{
+        width: 40px;
+        
+    }
+    .main{
+        font-size: 10px;
+    }
 }

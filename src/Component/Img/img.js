@@ -2,6 +2,7 @@ import img from '../../pngwing.com.png'
 import style from './img.module.css'
 export default function Img(){
     return(
+        
         <div className={style.main}>
             <img src={img}></img>
          <div className={style.ratings}>
@@ -9,5 +10,6 @@ export default function Img(){
          </div>
          <span>Rating</span>
         </div>
+        
     )
 }

@@ -1,6 +1,6 @@
 
 import style from '../Component/first.module.css'
-import Profile from './Profile'
+import Profile from './Profile/Profile'
 import Awards from './Awards/awards'
 import Desc from './Description/desc'
 import Img from './Img/img'
